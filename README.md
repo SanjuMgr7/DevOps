@@ -1,2 +1,2 @@
 # DevOps
-All the exercises are uploaded here.
+All the exercise task code are uploaded here.
