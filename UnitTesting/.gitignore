@@ -1,0 +1,11 @@
+# Dependencies (reproducible with `npm install`)
+node_modules/
+
+# Environment related files
+.env
+.env.*
+.DS_Store
+
+# Logs and coverage
+*.log
+coverage/

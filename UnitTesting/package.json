@@ -1,0 +1,16 @@
+{
+  "name": "UnitTesting",
+  "version": "1.0.0",
+  "description": "Basic arithmetic library with a Mocha + Chai test suite",
+  "main": "src/mylib.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha tests"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^6.3.0",
+    "mocha": "^12.0.3"
+  },
+  "type": "module"
+}
