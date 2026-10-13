@@ -1,0 +1,21 @@
+{
+  "name": "hex-to-rgb-api",
+  "version": "1.0.0",
+  "description": "Hex to RGB conversion library with an Express REST API and a Jest test suite",
+  "main": "src/hexToRgb.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "test:unit": "jest test/unit",
+    "test:integration": "jest test/integration",
+    "test:coverage": "jest --coverage"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
